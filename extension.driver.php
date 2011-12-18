@@ -32,7 +32,7 @@
 					`hide` ENUM('yes', 'no') DEFAULT 'no',
 					PRIMARY KEY (`id`),
 					KEY `field_id` (`field_id`)
-				)
+				) TYPE=MyISAM
 			");
 			
 			return true;
